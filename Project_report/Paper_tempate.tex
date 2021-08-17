@@ -1,0 +1,125 @@
+\documentclass[11pt]{article}
+ \usepackage{sebastyle}
+ 
+\geometry{margin=1in}
+
+
+
+
+
+
+
+
+%\usepackage{showkeys}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+
+
+\title{ Math to power industry project}
+\author{Edgar, Igor, Symon, Thomas \\ Department of Mathematics \\ Simon Fraser University \\ Canada}
+
+
+
+\begin{document}
+
+
+
+
+\maketitle
+
+Known anisotropy:
+\bull{
+\item Use least squares (standard L2 loss)
+\item Can optimize the samples via Migliorati, Cohen idea
+\item DNN architectures will be smaller, therefore beneficial
+}
+
+Unknown anisotropy:
+\bull{
+\item Use compressed sensing via weighted/unweighted $\ell^1$
+\item Larger DNN architectures
+}
+
+Exponential rates: as in MSML
+\bull{
+\item Note that with these we can use the preconditioning trick to get $\exp(-\gamma \widetilde{m}^{1/d})$ (as opposed to $1/(2d)$ when sampling from the uniform measure). This also works with unweighted $\ell^1$
+}
+
+Algebraic rates: new item to add!
+
+Fast algorithms: new stuff
+
+\section{Items to investigate}
+
+1) Better DNN architectures
+\bull{
+\item Can we reduce the size of the Opschoor et al ReLU construction?
+\item They also consider polynomial units -- check that
+\item Investigate the Daws and Webster approach -- does that yield smaller DNNs? \url{https://arxiv.org/abs/1905.10457} \url{https://arxiv.org/abs/1912.02302}
+\item Also look at \url{https://arxiv.org/pdf/1903.05858.pdf}
+}
+
+\textit{Sebastian/Ben to dig into this first.}
+
+
+2) Chebyshev polynomials -- we need an analogous version of the Opschoor result for these (the result in their paper only considers Legendre)
+
+
+
+\textit{Sebastian/Ben to dig into this first.}
+
+
+
+
+
+3) Infinite-dimensional case
+\bull{
+\item I think this is do-able, either via the approach of Rauhut--Schwab or my alternative approach
+\item To do: also investigate anchored sets (see Cohen, Migliorati, Nobile paper -- is that another approach)
+}
+
+\textit{Simone and Ben to work on inf dim CS stuff.}
+
+\textit{After that, we then dig into the Opschoor and Zech, Opschoor, Schwab and Zech papers, along with the Hermann, Schwab and Zech paper.}
+
+4) Noncompact domains, e.g. $\bbR^d$ with Hermite
+\bull{
+\item The tricky thing here is the DNN approximation of the Hermite polynomial. Is this known? Usually, DNNs approximations only work on compact intervals (although the Hermite polynomials decay exponentially outside a certain window, so perhaps it is ok).
+}
+
+\textit{We agree this is probably too much for this paper. But we'll still think about solving this for future work.}
+
+\section{Items for the future, i.e.\ to mention in the conclusion}
+
+Banach-valued problems
+
+\textit{Sebastian/Nick: figure out a convincing parametric PDE problem that is naturally formulated in a Banach space. If you can sell Ben on it, then we can think about it.}
+
+CNNs, ResNets, non ReLU activation functions. All work in practice (check this). Can we have any theory for them. Note: this is mentioned in the Kutyniok et al parametric PDE theory paper.
+
+Add to conclusion we provide an upper bound on DNN size. This may well be too large in practice. Can one prove a lower bound?
+
+\section*{Discussion -- Dec 15, 2020}
+
+We discuss splitting into two papers:
+
+Paper 1: algorithms for Hilbert-valued function approximation, via CS. This has all the technical CS theory, plus the PDI algorithm, etc. Includes code for the methods. Contributions:
+\bull{
+\item Novel, exponentially-convergent algorithm
+\item Full approximation statement for HV function approximation via CS with an algorithm
+\item Infinite-dimensional case as well (hopefully)
+}
+
+\textit{Nick: focus on the PDI implementation, both the vanilla $1/n$ algorithm and the exponentially-restarted.}
+
+Paper 2: DNN approximation. Basically, has the main theorem on DNNs, but also has lots of cool experiments comparing with the method of Paper 1.
+
+\textit{Sebastian/Nick/Simone: think about which parametric PDEs to show in this paper. Let's write a list and then decide which ones we're going to implement for the paper.}
+
+\textit{Are the ones from Geist good to use? What about parametric domain problems? Or time dependent problems? It might also be nice here to do some dimensionality studies, as in Geist et al. Can we make some more concrete takeaways from this? Also, some problems where CS with polynomials does not do well. We could also even do the basic harmonic oscillator problem.}
+
+
+\end{document}
+
