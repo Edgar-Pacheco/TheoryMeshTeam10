@@ -1,0 +1,43 @@
+-The data is collected/interpreted different times and under different assumptions.
+-When you read the data, you will that the column names begin with 'rcp' and then some number like 26, 25, etc.
+-Basically, each rcp number corresponds to different assumptions about the world that projections about the future will be applied to.
+-See https://nordicesmhub.github.io/climate-data-tutorial/01-introduction/index.html
+
+Climate Data:
+	-climatedata.ca (annual):
+		-Regions:
+			-Yukon:
+				-Whitehorse
+				-Mayo
+			-BC:
+				-Kelowna
+				-Prince George
+				-Lower Post
+			-Alberta:
+				-Lethbridge
+				-Edmonton
+				-Fort Vermillion
+			-Saskatchewan:
+				-Regina
+				-La Ronge
+				-Stony Rapids
+		-Max 5 day precipitation
+		-total precipitation
+		-coldest day
+		-hottest day
+		-cummulative days > 0 C
+		-frost free season
+		-growing degree days == 5 C
+		-growing degree days == 10 C
+		-max temp
+		-min temp
+		-mean temp
+		-temp max > 25 C
+		-temp max > 30 C
+		-wet days > 1mm
+		-wet days > 10mm
+		-wet days > 20mm
+Crop:
+	-stat can---estimated areas, yield, production, yield, avg farm price and total farm val of principal field crops, in metric and imperial units:
+		-data for selected crops in the prairie provinces and B.C..
+		-seperate data sets for entire province and small regions within.
