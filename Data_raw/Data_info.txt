@@ -1,0 +1,4 @@
+ Dataset Precipitation data
+
+ Wolock, D.M., and McCabe, G.J., 
+2018, Water Balance Model Inputs and Outputs for the Conterminous United States, 1900-2015: U.S. Geological Survey data release, https://doi.org/10.5066/F71V5CWN. 
