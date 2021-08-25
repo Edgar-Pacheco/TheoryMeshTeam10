@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Interpretations and Steps Forward}{4}{0}{2}
