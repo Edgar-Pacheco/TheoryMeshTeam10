@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 \beamer@sectionintoc {1}{Introduction }{2}{0}{1}
 \beamer@sectionintoc {2}{Problem}{4}{0}{2}
 \beamer@sectionintoc {3}{Results achieved}{6}{0}{3}
+=======
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Interpretations and Steps Forward}{4}{0}{2}
+>>>>>>> cc23528679749e8b3007262461d20b91118eccc3
