@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  25 AUG 2021 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  25 AUG 2021 14:06
 entering extended mode
 **c:/Users/solfo/OneDrive/Documents/m2piEdgar/TheoryMeshTeam10/M2PI_pres/slides_project_team10.tex
 (c:/Users/solfo/OneDrive/Documents/m2piEdgar/TheoryMeshTeam10/M2PI_pres/slides_project_team10.tex
@@ -1093,7 +1093,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 <./figures/wheat.jpeg, id=176, 276.03125pt x 183.68625pt>
 File: ./figures/wheat.jpeg Graphic file (type jpg)
 <use ./figures/wheat.jpeg>
-Package pdftex.def Info: ./figures/wheat.jpeg  used on input line 405.
+Package pdftex.def Info: ./figures/wheat.jpeg  used on input line 412.
 (pdftex.def)             Requested size: 284.55542pt x 49.79213pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1106,7 +1106,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 <./figures/yields.png, id=195, 849.8952pt x 530.4618pt>
 File: ./figures/yields.png Graphic file (type png)
 <use ./figures/yields.png>
-Package pdftex.def Info: ./figures/yields.png  used on input line 417.
+Package pdftex.def Info: ./figures/yields.png  used on input line 424.
 (pdftex.def)             Requested size: 212.47328pt x 132.61511pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1119,22 +1119,22 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 <./figures/harvestOld.jpeg, id=217, 271.0125pt x 187.70125pt>
 File: ./figures/harvestOld.jpeg Graphic file (type jpg)
 <use ./figures/harvestOld.jpeg>
-Package pdftex.def Info: ./figures/harvestOld.jpeg  used on input line 428.
+Package pdftex.def Info: ./figures/harvestOld.jpeg  used on input line 435.
 (pdftex.def)             Requested size: 85.35698pt x 78.24684pt.
 <./figures/harvestNew.jpeg, id=218, 309.155pt x 164.615pt>
 File: ./figures/harvestNew.jpeg Graphic file (type jpg)
 <use ./figures/harvestNew.jpeg>
-Package pdftex.def Info: ./figures/harvestNew.jpeg  used on input line 428.
+Package pdftex.def Info: ./figures/harvestNew.jpeg  used on input line 435.
 (pdftex.def)             Requested size: 85.35516pt x 78.24568pt.
 <./figures/waterOld.jpeg, id=219, 262.9825pt x 192.72pt>
 File: ./figures/waterOld.jpeg Graphic file (type jpg)
 <use ./figures/waterOld.jpeg>
-Package pdftex.def Info: ./figures/waterOld.jpeg  used on input line 428.
+Package pdftex.def Info: ./figures/waterOld.jpeg  used on input line 435.
 (pdftex.def)             Requested size: 85.35994pt x 78.24524pt.
 <./figures/waterNew.jpeg, id=220, 276.03125pt x 183.68625pt>
 File: ./figures/waterNew.jpeg Graphic file (type jpg)
 <use ./figures/waterNew.jpeg>
-Package pdftex.def Info: ./figures/waterNew.jpeg  used on input line 428.
+Package pdftex.def Info: ./figures/waterNew.jpeg  used on input line 435.
 (pdftex.def)             Requested size: 85.3582pt x 78.24638pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1146,7 +1146,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
  <./figures/harvestOld.jpeg> <./figures/harvestNew.jpeg> <./figures/waterOld.jpeg> <./figures/waterNew.jpeg>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <7> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 446.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 453.
 
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1158,7 +1158,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.446 \end{frame}
+l.453 \end{frame}
                   <C:/Users/solfo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
 \openout7 = `slides_project_team10.nav'.
@@ -1185,7 +1185,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,19n,124p,815b,761s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
-Output written on slides_project_team10.pdf (10 pages, 618328 bytes).
+Output written on slides_project_team10.pdf (10 pages, 619672 bytes).
 PDF statistics:
  311 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
