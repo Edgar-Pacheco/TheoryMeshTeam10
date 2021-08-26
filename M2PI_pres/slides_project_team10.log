@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  26 AUG 2021 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  26 AUG 2021 11:26
 entering extended mode
 **c:/Users/solfo/OneDrive/Documents/m2piEdgar/TheoryMeshTeam10/M2PI_pres/slides_project_team10.tex
 (c:/Users/solfo/OneDrive/Documents/m2piEdgar/TheoryMeshTeam10/M2PI_pres/slides_project_team10.tex
@@ -818,10 +818,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 267.
 
 
-Package pgf Warning: File "figuras/sfu" not found when defining image "logo_UFRN". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 293.
+Package pgf Warning: File "figuras/sfu" not found when defining image "logo_UFRN". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 291.
 
 
-Package pgf Warning: Missing width for image "logo_UFRN" ("figuras/sfu") in draft mode. Using 1cm instead on input line 293.
+Package pgf Warning: Missing width for image "logo_UFRN" ("figuras/sfu") in draft mode. Using 1cm instead on input line 291.
 
 (slides_project_team10.aux
 
@@ -830,24 +830,24 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `slides_project_team10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 300.
-LaTeX Font Info:    ... okay on input line 300.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -902,7 +902,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 300.
+Package hyperref Info: Link coloring OFF on input line 298.
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -912,62 +912,62 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count370
 )
-LaTeX Info: Redefining \ref on input line 300.
-LaTeX Info: Redefining \pageref on input line 300.
-LaTeX Info: Redefining \nameref on input line 300.
+LaTeX Info: Redefining \ref on input line 298.
+LaTeX Info: Redefining \pageref on input line 298.
+LaTeX Info: Redefining \nameref on input line 298.
  (slides_project_team10.out) (slides_project_team10.out)
 \@outlinefile=\write6
 \openout6 = `slides_project_team10.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 300.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 298.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 300.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 298.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 300.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 300.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 300.
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 300.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 300.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 300.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 300.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 300.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 300.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 298.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 300.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 300.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 298.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 300.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 300.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 300.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 300.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 300.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 300.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 298.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 300.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 300.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 298.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 300.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 300.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 298.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 300.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 298.
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -987,64 +987,64 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.14).
 
 (slides_project_team10.nav)
-Overfull \hbox (1.76387pt too wide) in paragraph at lines 300--300
+Overfull \hbox (1.76387pt too wide) in paragraph at lines 298--298
 [][]  
  []
 
 <figures/pims-logo-25.png, id=55, 225.84375pt x 56.46094pt>
 File: figures/pims-logo-25.png Graphic file (type png)
 <use figures/pims-logo-25.png>
-Package pdftex.def Info: figures/pims-logo-25.png  used on input line 302.
+Package pdftex.def Info: figures/pims-logo-25.png  used on input line 300.
 (pdftex.def)             Requested size: 67.75363pt x 16.9384pt.
 <figures/m2pilogo.png, id=57, 699.61375pt x 189.70876pt>
 File: figures/m2pilogo.png Graphic file (type png)
 <use figures/m2pilogo.png>
-Package pdftex.def Info: figures/m2pilogo.png  used on input line 302.
+Package pdftex.def Info: figures/m2pilogo.png  used on input line 300.
 (pdftex.def)             Requested size: 55.97023pt x 15.177pt.
 <figures/theorymesh.png, id=58, 174.6525pt x 71.26625pt>
 File: figures/theorymesh.png Graphic file (type png)
 <use figures/theorymesh.png>
-Package pdftex.def Info: figures/theorymesh.png  used on input line 302.
+Package pdftex.def Info: figures/theorymesh.png  used on input line 300.
 (pdftex.def)             Requested size: 52.39615pt x 21.38002pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 302.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 300.
 (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 302.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 300.
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 302.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 300.
  (C:\Users\solfo\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 <figures/seba.jpeg, id=59, 513.92pt x 513.92pt>
 File: figures/seba.jpeg Graphic file (type jpg)
 <use figures/seba.jpeg>
-Package pdftex.def Info: figures/seba.jpeg  used on input line 302.
+Package pdftex.def Info: figures/seba.jpeg  used on input line 300.
 (pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
 <figures/edgar.jpeg, id=60, 513.92pt x 513.92pt>
 File: figures/edgar.jpeg Graphic file (type jpg)
 <use figures/edgar.jpeg>
-Package pdftex.def Info: figures/edgar.jpeg  used on input line 302.
+Package pdftex.def Info: figures/edgar.jpeg  used on input line 300.
 (pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
 <figures/tkn.png, id=61, 513.92pt x 513.92pt>
 File: figures/tkn.png Graphic file (type png)
 <use figures/tkn.png>
-Package pdftex.def Info: figures/tkn.png  used on input line 302.
+Package pdftex.def Info: figures/tkn.png  used on input line 300.
 (pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
 <figures/igor.jpeg, id=62, 513.92pt x 513.92pt>
 File: figures/igor.jpeg Graphic file (type jpg)
 <use figures/igor.jpeg>
-Package pdftex.def Info: figures/igor.jpeg  used on input line 302.
+Package pdftex.def Info: figures/igor.jpeg  used on input line 300.
 (pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
 <figures/simon.jpeg, id=63, 513.92pt x 513.92pt>
 File: figures/simon.jpeg Graphic file (type jpg)
 <use figures/simon.jpeg>
-Package pdftex.def Info: figures/simon.jpeg  used on input line 302.
+Package pdftex.def Info: figures/simon.jpeg  used on input line 300.
 (pdftex.def)             Requested size: 41.11443pt x 41.11443pt.
 
-Overfull \vbox (13.80853pt too high) detected at line 302
+Overfull \vbox (5.34282pt too high) detected at line 300
  []
 
 
@@ -1090,10 +1090,10 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [6
 
 ]
-<./figures/HTF.jpg, id=268, 578.16pt x 325.215pt>
+<./figures/HTF.jpg, id=267, 578.16pt x 325.215pt>
 File: ./figures/HTF.jpg Graphic file (type jpg)
 <use ./figures/HTF.jpg>
-Package pdftex.def Info: ./figures/HTF.jpg  used on input line 397.
+Package pdftex.def Info: ./figures/HTF.jpg  used on input line 395.
 (pdftex.def)             Requested size: 142.26378pt x 80.02325pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1110,10 +1110,10 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [8
 
 ]
-<./figures/wheat.jpeg, id=329, 276.03125pt x 183.68625pt>
+<./figures/wheat.jpeg, id=328, 276.03125pt x 183.68625pt>
 File: ./figures/wheat.jpeg Graphic file (type jpg)
 <use ./figures/wheat.jpeg>
-Package pdftex.def Info: ./figures/wheat.jpeg  used on input line 425.
+Package pdftex.def Info: ./figures/wheat.jpeg  used on input line 423.
 (pdftex.def)             Requested size: 284.55542pt x 49.79213pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1123,10 +1123,10 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [9
 
  <./figures/wheat.jpeg>]
-<./figures/yields.png, id=357, 849.8952pt x 530.4618pt>
+<./figures/yields.png, id=356, 849.8952pt x 530.4618pt>
 File: ./figures/yields.png Graphic file (type png)
 <use ./figures/yields.png>
-Package pdftex.def Info: ./figures/yields.png  used on input line 437.
+Package pdftex.def Info: ./figures/yields.png  used on input line 435.
 (pdftex.def)             Requested size: 212.47328pt x 132.61511pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1136,25 +1136,25 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [10
 
  <./figures/yields.png>]
-<./figures/harvestOld.jpeg, id=389, 271.0125pt x 187.70125pt>
+<./figures/harvestOld.jpeg, id=388, 271.0125pt x 187.70125pt>
 File: ./figures/harvestOld.jpeg Graphic file (type jpg)
 <use ./figures/harvestOld.jpeg>
-Package pdftex.def Info: ./figures/harvestOld.jpeg  used on input line 448.
+Package pdftex.def Info: ./figures/harvestOld.jpeg  used on input line 446.
 (pdftex.def)             Requested size: 85.35698pt x 78.24684pt.
-<./figures/harvestNew.jpeg, id=390, 309.155pt x 164.615pt>
+<./figures/harvestNew.jpeg, id=389, 309.155pt x 164.615pt>
 File: ./figures/harvestNew.jpeg Graphic file (type jpg)
 <use ./figures/harvestNew.jpeg>
-Package pdftex.def Info: ./figures/harvestNew.jpeg  used on input line 448.
+Package pdftex.def Info: ./figures/harvestNew.jpeg  used on input line 446.
 (pdftex.def)             Requested size: 85.35516pt x 78.24568pt.
-<./figures/waterOld.jpeg, id=391, 262.9825pt x 192.72pt>
+<./figures/waterOld.jpeg, id=390, 262.9825pt x 192.72pt>
 File: ./figures/waterOld.jpeg Graphic file (type jpg)
 <use ./figures/waterOld.jpeg>
-Package pdftex.def Info: ./figures/waterOld.jpeg  used on input line 448.
+Package pdftex.def Info: ./figures/waterOld.jpeg  used on input line 446.
 (pdftex.def)             Requested size: 85.35994pt x 78.24524pt.
-<./figures/waterNew.jpeg, id=392, 276.03125pt x 183.68625pt>
+<./figures/waterNew.jpeg, id=391, 276.03125pt x 183.68625pt>
 File: ./figures/waterNew.jpeg Graphic file (type jpg)
 <use ./figures/waterNew.jpeg>
-Package pdftex.def Info: ./figures/waterNew.jpeg  used on input line 448.
+Package pdftex.def Info: ./figures/waterNew.jpeg  used on input line 446.
 (pdftex.def)             Requested size: 85.3582pt x 78.24638pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1171,15 +1171,15 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [12
 
 ]
-<./figures/Indicator_Value.png, id=453, 811.03pt x 316.18124pt>
+<./figures/Indicator_Value.png, id=452, 811.03pt x 316.18124pt>
 File: ./figures/Indicator_Value.png Graphic file (type png)
 <use ./figures/Indicator_Value.png>
-Package pdftex.def Info: ./figures/Indicator_Value.png  used on input line 456.
+Package pdftex.def Info: ./figures/Indicator_Value.png  used on input line 454.
 (pdftex.def)             Requested size: 251.4167pt x 98.01517pt.
-<./figures/Time_Value.png, id=454, 433.62pt x 289.08pt>
+<./figures/Time_Value.png, id=453, 433.62pt x 289.08pt>
 File: ./figures/Time_Value.png Graphic file (type png)
 <use ./figures/Time_Value.png>
-Package pdftex.def Info: ./figures/Time_Value.png  used on input line 456.
+Package pdftex.def Info: ./figures/Time_Value.png  used on input line 454.
 (pdftex.def)             Requested size: 143.09503pt x 95.39668pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1189,15 +1189,15 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [13
 
  <./figures/Indicator_Value.png> <./figures/Time_Value.png>]
-<./figures/corr_ma_num.png, id=485, 722.7pt x 394.47375pt>
+<./figures/corr_ma_num.png, id=484, 722.7pt x 394.47375pt>
 File: ./figures/corr_ma_num.png Graphic file (type png)
 <use ./figures/corr_ma_num.png>
-Package pdftex.def Info: ./figures/corr_ma_num.png  used on input line 462.
+Package pdftex.def Info: ./figures/corr_ma_num.png  used on input line 460.
 (pdftex.def)             Requested size: 216.81166pt x 118.34303pt.
-<./figures/matrix_1.png, id=486, 433.62pt x 289.08pt>
+<./figures/matrix_1.png, id=485, 433.62pt x 289.08pt>
 File: ./figures/matrix_1.png Graphic file (type png)
 <use ./figures/matrix_1.png>
-Package pdftex.def Info: ./figures/matrix_1.png  used on input line 462.
+Package pdftex.def Info: ./figures/matrix_1.png  used on input line 460.
 (pdftex.def)             Requested size: 130.087pt x 86.72466pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1207,15 +1207,15 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [14
 
  <./figures/corr_ma_num.png> <./figures/matrix_1.png>]
-<./figures/graph_meat.png, id=516, 433.62pt x 289.08pt>
+<./figures/graph_meat.png, id=515, 433.62pt x 289.08pt>
 File: ./figures/graph_meat.png Graphic file (type png)
 <use ./figures/graph_meat.png>
-Package pdftex.def Info: ./figures/graph_meat.png  used on input line 468.
+Package pdftex.def Info: ./figures/graph_meat.png  used on input line 466.
 (pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
-<./figures/index_2_time.png, id=517, 433.62pt x 289.08pt>
+<./figures/index_2_time.png, id=516, 433.62pt x 289.08pt>
 File: ./figures/index_2_time.png Graphic file (type png)
 <use ./figures/index_2_time.png>
-Package pdftex.def Info: ./figures/index_2_time.png  used on input line 468.
+Package pdftex.def Info: ./figures/index_2_time.png  used on input line 466.
 (pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1225,15 +1225,15 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [15
 
  <./figures/graph_meat.png> <./figures/index_2_time.png>]
-<./figures/Sox_Beef.png, id=547, 361.35pt x 361.35pt>
+<./figures/Sox_Beef.png, id=546, 361.35pt x 361.35pt>
 File: ./figures/Sox_Beef.png Graphic file (type png)
 <use ./figures/Sox_Beef.png>
-Package pdftex.def Info: ./figures/Sox_Beef.png  used on input line 474.
+Package pdftex.def Info: ./figures/Sox_Beef.png  used on input line 472.
 (pdftex.def)             Requested size: 144.53743pt x 144.53743pt.
-<./figures/Sox_Pork.png, id=548, 361.35pt x 361.35pt>
+<./figures/Sox_Pork.png, id=547, 361.35pt x 361.35pt>
 File: ./figures/Sox_Pork.png Graphic file (type png)
 <use ./figures/Sox_Pork.png>
-Package pdftex.def Info: ./figures/Sox_Pork.png  used on input line 474.
+Package pdftex.def Info: ./figures/Sox_Pork.png  used on input line 472.
 (pdftex.def)             Requested size: 144.53743pt x 144.53743pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1243,15 +1243,15 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 [16
 
  <./figures/Sox_Beef.png> <./figures/Sox_Pork.png>]
-<./figures/corr_CO2_GHG.png, id=578, 361.35pt x 361.35pt>
+<./figures/corr_CO2_GHG.png, id=577, 361.35pt x 361.35pt>
 File: ./figures/corr_CO2_GHG.png Graphic file (type png)
 <use ./figures/corr_CO2_GHG.png>
-Package pdftex.def Info: ./figures/corr_CO2_GHG.png  used on input line 480.
+Package pdftex.def Info: ./figures/corr_CO2_GHG.png  used on input line 478.
 (pdftex.def)             Requested size: 144.53743pt x 144.53743pt.
-<./figures/corr_CO_NOX.png, id=579, 361.35pt x 361.35pt>
+<./figures/corr_CO_NOX.png, id=578, 361.35pt x 361.35pt>
 File: ./figures/corr_CO_NOX.png Graphic file (type png)
 <use ./figures/corr_CO_NOX.png>
-Package pdftex.def Info: ./figures/corr_CO_NOX.png  used on input line 480.
+Package pdftex.def Info: ./figures/corr_CO_NOX.png  used on input line 478.
 (pdftex.def)             Requested size: 144.53743pt x 144.53743pt.
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1263,7 +1263,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
  <./figures/corr_CO2_GHG.png> <./figures/corr_CO_NOX.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <7> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 498.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 496.
 
 
 Overfull \hbox (1.76387pt too wide) has occurred while \output is active
@@ -1275,7 +1275,7 @@ Overfull \hbox (1.76387pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.498 \end{frame}
+l.496 \end{frame}
                   <C:/Users/solfo/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
 \openout7 = `slides_project_team10.nav'.
@@ -1296,15 +1296,15 @@ Package rerunfilecheck Info: File `slides_project_team10.out' has not changed.
 Here is how much of TeX's memory you used:
  37987 strings out of 478868
  888223 string characters out of 2848809
- 1297309 words of memory out of 3000000
+ 1296309 words of memory out of 3000000
  55057 multiletter control sequences out of 15000+600000
  422099 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,124p,815b,761s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
-Output written on slides_project_team10.pdf (18 pages, 1563252 bytes).
+<C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/solfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb>
+Output written on slides_project_team10.pdf (18 pages, 1556010 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
+ 691 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
  208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
