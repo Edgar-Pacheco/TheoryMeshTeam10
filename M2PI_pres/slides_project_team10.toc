@@ -1,4 +1,10 @@
 \beamer@sectionintoc {1}{Introduction }{2}{0}{1}
 \beamer@sectionintoc {2}{Problem}{4}{0}{2}
+<<<<<<< HEAD
 \beamer@sectionintoc {3}{Results achieved}{6}{0}{3}
 \beamer@sectionintoc {4}{Data analysis}{11}{0}{4}
+=======
+\beamer@sectionintoc {3}{Why it matters}{6}{0}{3}
+\beamer@sectionintoc {4}{Results achieved}{8}{0}{4}
+\beamer@sectionintoc {5}{Data analysis}{12}{0}{5}
+>>>>>>> 5449e7000795bd369f1f3935d76f0f5058860ad3
