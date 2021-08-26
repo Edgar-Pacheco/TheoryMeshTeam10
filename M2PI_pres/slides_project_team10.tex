@@ -257,7 +257,7 @@
 	{  \includegraphics[scale=0.3]{figures/theorymesh}   \\ Chris Bunio, Cuneyt Akcora.     }\\
 	{\small S. Moraga \inst{1}  ,\,
 	{\small  E. Pacheco \inst{2}},\,
-            T. Pender   \inst{3},\, I. Vin\'icius  \inst{4} ,\, S. Yeal   \inst{5} \\  
+            T. Pender   \inst{3},\, I. Vin\'icius  \inst{4} ,\, S. Yeal   \inst{1} \\  
            \includegraphics[scale=0.08]{figures/seba}
            \includegraphics[scale=0.08]{figures/edgar}
            \includegraphics[scale=0.08]{figures/tkn}
@@ -274,12 +274,9 @@
     \inst{2}%
 	Department of Mathematics and Statistics, University of Calgary. \\
 	\inst{3}%
-	\inst{3}%
 	Department of Mathematics and Computer Science, University of Lethbridge.
 	\inst{4}%
-	Department of $\ldots$, University of $\ldots$.\\
-	\inst{5}%
-	Department of $\ldots$, University of $\ldots$.\\}
+	Department of Mathematics, University of British Columbia\\}
 
 \AtBeginSection[]
 {
@@ -369,14 +366,18 @@
 
 \section{Problem}
 \begin{frame}{The problem proposed}
-	What TheoryMesh is looking for through the PIMS 2021 challenge can be condensed to the following: 
+\begin{block}{Expectations}
+	TheoryMesh’s goals from the PIMS can be presented as:
+	
 	\begin{itemize}
-		\item Develop a model and a system of action using open data to better understand and ideally, predict the environmental impact from agricultural practices.
-		\item Leveraging said model to complement the current TheoryMesh system which is capturing individual operation level impact from farm activities. 
-		\item Combining the macro-level environmental indicators from agricultural practices and micro-level data from farm activities and operations, TheoryMesh can, ideally, measure and predict sustainability levels of consumer-level products to better inform the consumers and help companies meet their sustainability goals.
+		\item Model and predict the environmental impact from agricultural practices.
+		
+		\item Complement the current TheoryMesh system.
+		
+		\item Combine both systems to measure and predict sustainability levels of products and companies.
 	\end{itemize}
 
-The problem requires us to analyze indicators like air and GHG emissions, fish and meat consumption levels, the impact of organic farming, the usage rate of various types of pesticides and herbicides, the chemical spread on total agricultural land, and many other factors. 
+\end{block}	
 \end{frame}
 
 \section{Why it matters}
@@ -424,31 +425,32 @@ The problem requires us to analyze indicators like air and GHG emissions, fish a
 \end{frame}
 
 \section{Data analysis}
-\begin{frame}
+\begin{frame}{Environmental impact Canada: Amount of indicators from 1984-2017 }
+
 \begin{center}
-\includegraphics[scale=0.35]{./figures/Indicator_Value}  \includegraphics[scale=0.35]{./figures/Time_Value}
+\includegraphics[scale=0.31]{./figures/Indicator_Value}  \includegraphics[scale=0.33]{./figures/Time_Value}
 \end{center}
 \end{frame} 
 
-\begin{frame}
+\begin{frame}{Correlation between Greenhouse gases and farms}
 \begin{center}
 \includegraphics[scale=0.3 ]{./figures/corr_ma_num} \includegraphics[scale=0.3]{./figures/matrix_1} 
 \end{center}
 \end{frame} 
 
-\begin{frame}
+\begin{frame}{Growth farming and agriculture }
 \begin{center}
 \includegraphics[scale=0.4 ]{./figures/graph_meat} \includegraphics[scale=0.4]{./figures/index_2_time} 
 \end{center}
 \end{frame} 
 
-\begin{frame}
+\begin{frame}{Correlation Beef-Sox and Pork-Sox}
 \begin{center}
 \includegraphics[scale=0.4 ]{./figures/Sox_Beef} \includegraphics[scale=0.4]{./figures/Sox_Pork} 
 \end{center}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Correlation GhG-Co2 and Nox-CO}
 \begin{center}
 \includegraphics[scale=0.4 ]{./figures/corr_CO2_GHG} \includegraphics[scale=0.4]{./figures/corr_CO_NOX} 
 \end{center}
