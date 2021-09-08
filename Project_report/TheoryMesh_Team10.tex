@@ -122,54 +122,86 @@ We note the projections here are illustrative. The $R^2$ value for the projectio
 
 Now, as is clear from Figure \ref{ABprojections}, the particular climate model we are assuming has a great effect on the projected yield. It is projections such as these that producers may find benificial in making informed choices in a time of increased volatility.
 
-\subsection{\rred{SEBASTIAN'S WORK}}%\label{}
+\section{Models and results}\label{Corr_modl}
+In this section we discuss briefly about the models used on the data collected  in this research. Mostly,  we  describe the variables ...  \MG{Symon's work}.
 
-\section{Future Work}
+The models we implemented are simple  linear regresion models of the type 
+\begin{equation}
+Y_i = \beta_0 + \sum_{j=1}^k \beta_j X_{i,j},    
+\end{equation}
+ for the observations $i\in [N]$ where $N$ are total number of observations and  dependent variables $k$.
+ 
+ As well, in this study we use the dependence between two specific quantities using  a correlation coefficient matrix, with  the Pearson's correlation coefficients. This method is widely used to see linear correlation between variables,  which as well ises  a least squares fitting to the data obtained.
+ The results of this research are shown in Figures \ref{Example1fig}, \ref{Example2fig}, \ref{Example3fig}, \ref{Example4fig}, \ref{Example5fig}  and \ref{Example6fig}.
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.50\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/Indicator_Value}\\
 
-\begin{comment}
-\subsection*{Outline}
-\MG{Sebastian: Here a little bit of outline of the  project, we  should write this aprt after the main parts are in place.}
+\caption{ Comparison of the different types of indicators  values in Canada, from 1984 to 2017. Shows only the indicators over the mean value, where transgenic crops was the most used indicator.
+}
+\label{Example1fig}
+\end{figure}
+% ===============================================================================================
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/Time_Value}\qquad
 
-\section{Motivation}
-\begin{itemize}
-\item Bullet points for the main motivation.
-\item Should talk about the importance of the model
-\item Why does it fit the data.
+\caption{Shows  the amount of indicators per year from 1984 to 2017. The year were more  indicators were used was 2014 and 2017.
+}
+\label{Example2fig}
+\end{figure}
+% ===============================================================================================
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/corr}
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/matrix_1}
 
-\item etc.
-\end{itemize}
-\section{Contributions}
-\begin{itemize}
-\item Contributions of our work
-\item How does our work  (try to-) fix the problem. etc
-\end{itemize}
-\section{Related work}
+\caption{We compare different factors from environment impact with a correlation matrix. (\textbf{Left}) Shows the pairwise correlation  coefficients between various variables of the Canadian food production, such as GHG and farm supplies. (\textbf{Right}) Shows a visualization of the corresponding correlation matrix on the left.
+}
+\label{Example3fig}
+\end{figure}
+% ===============================================================================================
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/graph_meat}
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/graph_NEW}
 
-\begin{itemize}
-\item A little of literature review
-\end{itemize}
-\section{Setup}
+\caption{Comparison in  time of food supplies production per-capita from 1990 to 2017. (\textbf{Left}) Shows the evolution of different products from farms, whereas we observe an increasing number of poultry but a decreasing number of other supplies as beef and pork. (\textbf{Right}) Shows the evolution of the farm products along GHG produced in the same time frame.
+}
+\label{Example4fig}
+\end{figure}
+% ===============================================================================================
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/Sox_Beef}
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/Sox_Pork}
 
-\begin{itemize}
-\item Main mathematical setup. All that is needed to  understand the problem.
-\MG{Sebastian: Maybe this part changes as we  go  with the project, because should be something more for the industry  than theoretical.}
-\end{itemize}
-\section{The model problem}
+\caption{Shows  a best-fit line for two variables and the respective confidence intervals. (\textbf{Left}) Comparison for a linear correlation between beef production per-capita and Sox gas emited. (\textbf{Right}) Comparison for a linear correlation between pork production per-capita and Sox gas emited. 
+}
+\label{Example5fig}
+\end{figure}
+% ===============================================================================================
+% ===============================================================================================
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/corr_CO2_GHG}
+\includegraphics[width=0.30\paperwidth, clip=true, trim=0mm 0mm 0mm 0mm]{figures/corr_CO_NOX}
 
-\begin{itemize}
-\item What kind of model, prediction are we using. Machine learning approaches, regression models, etc...
-\end{itemize}
-\section{Problem statement}
+\caption{Shows  a best-fit line for GHG and one specific gas with the respective confidence intervals. (\textbf{Left}) Comparison for a linear correlation between GHG production per-capita and CO2  emited. (\textbf{Right}) Comparison for a linear correlation between GHG production per-capita and CO emited. 
+}
+\label{Example6fig}
+\end{figure}
+% ===============================================================================================
+\section{Conclusions and future work} 
+In this work, we first stablished the main problems and overall challenges that  food process and agriculture  may face in the future. The main results showed in Section  \ref{Corr_modl}, asserting the existence of a linear correlation between  variables from food production. With this in mind we have a better understanding of the indictors for sustainability. Where the preliminary results shows why in certain cases, while the poultry production increases per capita some other factor decreases like beef or pork production.
 
-\begin{itemize}
-\item We should talk a bit of the  statement of the problem 
-\end{itemize}
-\section{Main results}
+Yet, through the previous research  there is many other factors to consider and this is the starting of an opportunity for more investigation about the challenges of dood production. Which open the door to more areas, as a next step are considered to look at sustainability of the economic activities  in Canada, to develop a system to tackle problems as land use, water consumption and use of fertilizers. The preliminary results obtained in the work are promising, as well the need for further improvements to open  problems such as certification for the food suppliers and traceability of the products. These results could be reported in a future work.
 
-\section{Conclusions}
-
-\section{Future work}
-\end{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{thebibliography}{99}
