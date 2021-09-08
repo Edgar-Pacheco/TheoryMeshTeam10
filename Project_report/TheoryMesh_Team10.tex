@@ -106,17 +106,19 @@ The second problem ... \rred{SEBASTIAN: What you worked on...}
 
 There are many areas in the world that are experiencing the catastrophic effects of climate change. In the Middle East, many of the farmers who have had to rely on local tributaries to sustain their crops are having to to consider different ways of life as water levels of these rivers and lakes decrease and, ultimately, disappear. As these climate events unfold, the UN \ccite warns of a proliferation of conflict over the increase in water scarcity.
 
-For more northern regions, like Canada, the situation may develop differently. As the climate warms, areas to the north will continue to become more viable for a greater variety agricultural practices and commodities. For instance, consider the length of the frost free days in the province of Alberta \ccite.
+For more northern regions, like Canada, the situation may develop differently. As the climate warms, areas to the north will continue to become more viable for a greater variety of agricultural practices and commodities. For instance, consider the length of the frost free days in the province of Alberta \ccite.
 
 In each climate model, as indicated by Figure \ref{ABfrostdays}, the number of consecutive frost free days will invariably increase. With the increased length of the growing season, there will be more opportunities to grow a greater variety of crops in regions that have been hitherto difficult to cultivate.
 
 There are other climate variables to consider as well. Observe the cummulative monthly mean temperature in Alberta over the consecutive frost free days shown in Figure \ref{ABmeantemp} \ccite.
 
-To further evince the increasing productivity of Canadian crop yields, consider the data shown in Figure \ref{ABbarleyyields}, which shows the change in barley yields in Alberta \ccite.
+These climate projections per locale can be used by producers in order to project at what points they may profitably consider changes in the location of their business and the type of crops they choose to grow in these locations.
 
+To further evince the increasing productivity of Canadian crop yields, and to provide specific crop data per locale for producers, we can consider data like that shown in Figure \ref{ABbarleyyields}, which shows the change in barley yields in Alberta \ccite. 
 
+Assuming the yield to a be a function time and a number climate variables, say, the number of days with max temperature greater than 32 $^\circ$C, the number of frost free days, the cummulative precipitation, and the cummulative monthly mean temperature, we endevour to use the usual multilinear regression techniques and tools to exterpolate into the future (here we have the popular sklearn module).
 
-The final question is how can this information be passed on the farmers. 
+As is clear from Figure \ref{ABprojections}, the particular climate model we are assuming has a great effect on the projected yield. We note that rcp26, rcp45, and rcp85 are, respectively, the low, mid, and high emisions models. It is projections such as these that producers may find benificial in making informed choices in a time of increased volatility.
 
 \subsection{\rred{SEBASTIAN'S WORK}}%\label{}
 
@@ -182,28 +184,36 @@ Sustainable management of water resources in agriculture. OECD Publishing. Franc
 
 \end{thebibliography}
 
-\section{Figures and Tables}\label{figures}
+\section*{Figures}\label{figures}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{ABfrost}
+\includegraphics[scale=0.4]{ABfrost}
 \caption{Consecutive Frost Free Days in Alberta}
 \label{ABfrostdays}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
- \includegraphics[scale=0.35]{ABtemp}
+ \includegraphics[scale=0.4]{ABtemp}
  \caption{cummulative Mean Temperatures in Alberta}
  \label{ABmeantemp}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
- \includegraphics[scale=0.35]{AByield}
+ \includegraphics[scale=0.4]{AByield}
  \caption{Barley Yields in Alberta}
  \label{ABbarleyyields}
 \end{figure}
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{ABproj}
+ \caption{Projected Barley Yields in Alberta}
+ \label{ABprojections}
+\end{figure}
+
 
 \end{document}
 
