@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.16)  9 SEP 2021 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.16)  9 SEP 2021 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,20 +335,20 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./TheoryMesh_Team10.aux)
 \openout1 = `TheoryMesh_Team10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -401,18 +401,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 [][]\OT1/cmr/m/n/9 Department of Math-e-mat-ics and Statis-tics, Uni-ver-sity o
 f Cal-gary, Canada. email:
  []
@@ -420,10 +420,10 @@ f Cal-gary, Canada. email:
 <m2pilogo.png, id=1, 699.61375pt x 189.70876pt>
 File: m2pilogo.png Graphic file (type png)
 <use m2pilogo.png>
-Package pdftex.def Info: m2pilogo.png  used on input line 67.
+Package pdftex.def Info: m2pilogo.png  used on input line 69.
 (pdftex.def)             Requested size: 69.96547pt x 18.97198pt.
 
-Overfull \hbox (25.05997pt too wide) in paragraph at lines 67--68
+Overfull \hbox (25.05997pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
@@ -433,7 +433,7 @@ Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./m2pilogo.png>] [2]
 [3] [4]
-Overfull \hbox (460.61754pt too wide) in paragraph at lines 185--188
+Overfull \hbox (460.61754pt too wide) in paragraph at lines 187--190
 \OT1/cmr/m/sc/10.95 DOI: \OT1/cmr/m/n/10.95 https://www.un.org/climatechange?gc
 lid=CjwKCAjwvuGJBhB1EiwACU1AidbTCITKc5CBRuumTV$[]$k5EY1YDXEN6DY21GqWNKxN87KO28W
 AFncQxoCaWcQAvD$[]$BwE 
@@ -442,12 +442,12 @@ AFncQxoCaWcQAvD$[]$BwE
 <ABfrost.png, id=34, 731.73375pt x 392.46625pt>
 File: ABfrost.png Graphic file (type png)
 <use ABfrost.png>
-Package pdftex.def Info: ABfrost.png  used on input line 200.
+Package pdftex.def Info: ABfrost.png  used on input line 202.
 (pdftex.def)             Requested size: 292.68831pt x 156.9837pt.
 <ABtemp.png, id=35, 731.73375pt x 392.46625pt>
 File: ABtemp.png Graphic file (type png)
 <use ABtemp.png>
-Package pdftex.def Info: ABtemp.png  used on input line 207.
+Package pdftex.def Info: ABtemp.png  used on input line 209.
 (pdftex.def)             Requested size: 292.68831pt x 156.9837pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -455,7 +455,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <AByield.png, id=36, 737.75626pt x 392.46625pt>
 File: AByield.png Graphic file (type png)
 <use AByield.png>
-Package pdftex.def Info: AByield.png  used on input line 214.
+Package pdftex.def Info: AByield.png  used on input line 216.
 (pdftex.def)             Requested size: 295.09727pt x 156.9837pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -463,7 +463,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <ABproj.png, id=37, 745.78625pt x 392.46625pt>
 File: ABproj.png Graphic file (type png)
 <use ABproj.png>
-Package pdftex.def Info: ABproj.png  used on input line 221.
+Package pdftex.def Info: ABproj.png  used on input line 223.
 (pdftex.def)             Requested size: 298.30922pt x 156.9837pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -471,52 +471,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/Indicator_Value.png, id=38, 811.03pt x 316.18124pt>
 File: figures/Indicator_Value.png Graphic file (type png)
 <use figures/Indicator_Value.png>
-Package pdftex.def Info: figures/Indicator_Value.png  used on input line 229.
+Package pdftex.def Info: figures/Indicator_Value.png  used on input line 231.
 (pdftex.def)             Requested size: 307.14749pt x 119.74486pt.
 <figures/Time_Value.png, id=40, 433.62pt x 289.08pt>
 File: figures/Time_Value.png Graphic file (type png)
 <use figures/Time_Value.png>
-Package pdftex.def Info: figures/Time_Value.png  used on input line 239.
+Package pdftex.def Info: figures/Time_Value.png  used on input line 241.
 (pdftex.def)             Requested size: 184.29036pt x 122.85957pt.
 <figures/corr.png, id=42, 718.685pt x 389.455pt>
 File: figures/corr.png Graphic file (type png)
 <use figures/corr.png>
-Package pdftex.def Info: figures/corr.png  used on input line 249.
+Package pdftex.def Info: figures/corr.png  used on input line 251.
 (pdftex.def)             Requested size: 184.29036pt x 99.86534pt.
 <figures/matrix_1.png, id=44, 433.62pt x 289.08pt>
 File: figures/matrix_1.png Graphic file (type png)
 <use figures/matrix_1.png>
-Package pdftex.def Info: figures/matrix_1.png  used on input line 250.
+Package pdftex.def Info: figures/matrix_1.png  used on input line 252.
 (pdftex.def)             Requested size: 184.29036pt x 122.85957pt.
 <figures/graph_meat.png, id=46, 433.62pt x 289.08pt>
 File: figures/graph_meat.png Graphic file (type png)
 <use figures/graph_meat.png>
-Package pdftex.def Info: figures/graph_meat.png  used on input line 260.
+Package pdftex.def Info: figures/graph_meat.png  used on input line 262.
 (pdftex.def)             Requested size: 184.29036pt x 122.85957pt.
 <figures/graph_NEW.png, id=48, 433.62pt x 289.08pt>
 File: figures/graph_NEW.png Graphic file (type png)
 <use figures/graph_NEW.png>
-Package pdftex.def Info: figures/graph_NEW.png  used on input line 261.
+Package pdftex.def Info: figures/graph_NEW.png  used on input line 263.
 (pdftex.def)             Requested size: 184.29036pt x 122.85957pt.
 <figures/Sox_Beef.png, id=50, 361.35pt x 361.35pt>
 File: figures/Sox_Beef.png Graphic file (type png)
 <use figures/Sox_Beef.png>
-Package pdftex.def Info: figures/Sox_Beef.png  used on input line 271.
+Package pdftex.def Info: figures/Sox_Beef.png  used on input line 273.
 (pdftex.def)             Requested size: 184.29036pt x 184.29158pt.
 <figures/Sox_Pork.png, id=52, 361.35pt x 361.35pt>
 File: figures/Sox_Pork.png Graphic file (type png)
 <use figures/Sox_Pork.png>
-Package pdftex.def Info: figures/Sox_Pork.png  used on input line 272.
+Package pdftex.def Info: figures/Sox_Pork.png  used on input line 274.
 (pdftex.def)             Requested size: 184.29036pt x 184.29158pt.
 <figures/corr_CO2_GHG.png, id=54, 361.35pt x 361.35pt>
 File: figures/corr_CO2_GHG.png Graphic file (type png)
 <use figures/corr_CO2_GHG.png>
-Package pdftex.def Info: figures/corr_CO2_GHG.png  used on input line 282.
+Package pdftex.def Info: figures/corr_CO2_GHG.png  used on input line 284.
 (pdftex.def)             Requested size: 184.29036pt x 184.29158pt.
 <figures/corr_CO_NOX.png, id=56, 361.35pt x 361.35pt>
 File: figures/corr_CO_NOX.png Graphic file (type png)
 <use figures/corr_CO_NOX.png>
-Package pdftex.def Info: figures/corr_CO_NOX.png  used on input line 283.
+Package pdftex.def Info: figures/corr_CO_NOX.png  used on input line 285.
 (pdftex.def)             Requested size: 184.29036pt x 184.29158pt.
 [5 <./ABfrost.png>] [6 <./ABtemp.png> <./AByield.png>] [7 <./figures/Indicator_
 Value.png> <./figures/Time_Value.png> <./ABproj.png>] [8 <./figures/corr.png> <
@@ -526,7 +526,7 @@ g> <./figures/corr_CO_NOX.png>] (./TheoryMesh_Team10.aux) )
 Here is how much of TeX's memory you used:
  5987 strings out of 481239
  83940 string characters out of 5920377
- 336500 words of memory out of 5000000
+ 336613 words of memory out of 5000000
  21115 multiletter control sequences out of 15000+600000
  552537 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -547,7 +547,7 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on TheoryMesh_Team10.pdf (9 pages, 633872 bytes).
+Output written on TheoryMesh_Team10.pdf (9 pages, 634362 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
