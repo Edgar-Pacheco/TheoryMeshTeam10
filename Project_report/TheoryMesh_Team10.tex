@@ -25,6 +25,8 @@
 
 \usepackage[table]{xcolor}
 
+\usepackage{textpos}
+
 % OUR DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{sebastyle}
 \DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
@@ -41,31 +43,29 @@
 \thanks{This research was 
 partially supported by  Pacific Institute for the Mathematical Sciences, Mitacs, QuanSight, West Grid and Cybera.}}
 
-\author{{\sc Edgar Pacheco}\thanks{Department of Mathematics and Statistics, University of Calgary, Canada.
-email: {\tt edgar.pachecocastan@ucalgary.ca}.}
+\author{
+{\sc Symon Islam}\thanks{Department of Mathematics, Simon Fraser University, Vancouver, British Columbia, V5A 1S6, Canada. {\tt symonyeal@gmail.com}.}
 \and
-{\sc Symon Islam}\thanks{Department of ...
-email: {\tt your email}.}
+{\sc Sebasti\'an Moraga}\thanks{ Department of Mathematics, Simon Fraser University, Vancouver, British Columbia, V5A 1S6, Canada. {\tt smoragas@sfu.ca}.}
 \and
-{\sc Thomas Pender}\thanks{Department of Mathematics and Computer Science, University of Lethbridge, Canada.
-email: {\tt thomas.pender@uleth.ca}.}
+{\sc Edgar Pacheco}\thanks{Department of Mathematics and Statistics, University of Calgary, Calgary, Alberta, T2N 1N4, Canada. {\tt edgar.pachecocastan@ucalgary.ca}.}
 \and
-{\sc Igor Pinheiro}\thanks{Department of ...
-email: {\tt your email}.}
+{\sc Thomas Pender}\thanks{Department of Mathematics and Computer Science, University of Lethbridge, Lethbridge, Alberta, T1K 3M4, Canada. {\tt thomas.pender@uleth.ca}.}
 \and
-{\sc Sebasti\'an Moraga}\thanks{ Department of Mathematics, Simon Fraser University, Canada.
-email: {\tt smoragas@sfu.ca}.}}
+{\sc Igor Pinheiro}\thanks{Department of Mathematics, University of British Columbia, Vancouver, British Columbia, V6T 1Z2, Canada. {\tt igor.ivpp@math.ubc.ca}.}
+}
 
 \date{}
 
 \begin{document}
 
 \maketitle
+\begin{textblock*}{2cm}(0cm,-5.5cm)
+  \includegraphics[scale=0.1]{m2pilogo}%\rule{2cm}{1cm}
+\end{textblock*}
 
 \begin{abstract}
-\noindent
-In this paper we propose and analyze [...] In this part we write the possible abstract for the project.
-
+\noindent In this paper, we study several aspects of sustainability in agriculture. The need to provide information and projections to farmers and producers is addressed. Then we study several indicators of the environmental impacts on agricultural production.
 \end{abstract}
 
 \begin{comment}
@@ -82,7 +82,7 @@ In this paper we propose and analyze [...] In this part we write the possible ab
 
 Sustainability is the greatest challenge facing the human race, and in the face of global warming coupled with population increase, the strain on vital sectors, like agriculture, is mounting at an accelerated pace. This project is focused on the use of open data to improve understanding, and, ideally, predictability, for the environmental impact from agriculture. 
 
-Agriculture is one of the most significant areas of economic activity for countries around the world, and it has a significant environmental impact; it is estimated that agriculture accounts for at least $10\%$ of green house gas emissions in many countries \ccite. In nearly every country, there is an impact from agricultural practices through changing land use, water consumption, use of fertilizer, GHG and other emissions. From a local perspective agriculture creates different dynamics for indigenous plant and animal life in addition to creating different micro-climates. On a more broad scale, agriculture can put pressure on entire river systems and lead to changing weather patterns as atmospheric humidity and solar radiation emissions change.
+Agriculture is one of the most significant areas of economic activity for countries around the world, and it has a significant environmental impact; it is estimated that agriculture accounts for at least $10\%$ of green house gas emissions in many countries. In nearly every country, there is an impact from agricultural practices through changing land use, water consumption, use of fertilizer, GHGs and other emissions. From a local perspective agriculture creates different dynamics for indigenous plant and animal life in addition to creating different micro-climates. On a more broad scale, agriculture can put pressure on entire river systems and lead to changing weather patterns as atmospheric humidity and solar radiation emissions change.
 
 The ideal outcome of this project is the design of a model and a system of action for environmental impacts that leverages open data and provides a complement to the current TheoryMesh system which is capturing operational impacts from farm activities. Invariably, the project and its outcome will be data driven.
 
@@ -90,8 +90,22 @@ There are many data sources available to investigate environmental changes and i
 
 For a broader view, the reader is encouraged to read The United Nations Sustainable Development Goals that describe a multi-faceted view of sustainability covering environment, economic and societal factors \cite{UN-edgar}.
 
+Finally, we note that tables and figures are reserved for an Appendix at the end of this document.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Models and results}\label{Corr_modl}
+
+In this section we discuss briefly the models used on the data collected  in this research. The models we implemented are simple linear regresion models of the type 
+\begin{equation}
+Y_i = \beta_0 + \sum_{j=1}^k \beta_j X_{i,j},    
+\end{equation}
+ for the observations $i\in \{1, 2, \dots, N\}$, where $N$ are total number of observations, and where thre are dependent variables $k$.
+ 
+ Furthermore, in this study we use the dependence between two specific quantities using  a correlation coefficient matrix, with  the Pearson's correlation coefficients. This method is widely used to see linear correlation between variables that also uses a least squares fitting to the data obtained.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
 \section{Problems}\label{problems}
 
 The issues elluded to above are broad, and they are difficult to quantify and to analyze; indeed, agricultural sustainability is a function of a large number of variables. In an effort to make the problem more tractable, we focused on two smaller problems.
@@ -101,6 +115,8 @@ The first problem arose in the following way. There is a lot of work being done 
 All this is to say that the productivity of agricultural fields, what producers depend on, is being negatively affected, and new approaches to collecting, interpreting, and disseminating relavent information need to be produced.
 
 As a second problem, we see that environment problems  have been a real matter in the last century. Factors that could be correlated can explain why certain aspects of area of production can affect others. The main issue here is,  to try to identify  factors in  Canada where an increasing (or decreasing) of them can  impact the environment and the surroundings. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Productivity of Canadian Farms}\label{productivity}
 
@@ -122,17 +138,86 @@ We note the projections here are illustrative. The $R^2$ value for the projectio
 
 Now, as is clear from Figure \ref{ABprojections}, the particular climate model we are assuming has a great effect on the projected yield. It is projections such as these that producers may find benificial in making informed choices in a time of increased volatility.
 
-\section{Models and results}\label{Corr_modl}
-In this section we discuss briefly about the models used on the data collected  in this research. Mostly,  we  describe the variables ...  \MG{Symon's work}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The models we implemented are simple  linear regresion models of the type 
-\begin{equation}
-Y_i = \beta_0 + \sum_{j=1}^k \beta_j X_{i,j},    
-\end{equation}
- for the observations $i\in [N]$ where $N$ are total number of observations and  dependent variables $k$.
- 
- As well, in this study we use the dependence between two specific quantities using  a correlation coefficient matrix, with  the Pearson's correlation coefficients. This method is widely used to see linear correlation between variables,  which as well ises  a least squares fitting to the data obtained.
- The results of this research are shown in Figures \ref{Example1fig}, \ref{Example2fig}, \ref{Example3fig}, \ref{Example4fig}, \ref{Example5fig}  and \ref{Example6fig}.
+\subsection{Indicators of Environmental Impact}\label{indicators}
+
+In this work, we first stablished the main problems and overall challenges that  food process and agriculture  may face in the future. The main results showed in Section  \ref{Corr_modl}, asserting the existence of a linear correlation between  variables from food production. With this in mind we have a better understanding of the indictors for sustainability. Where the preliminary results show why in certain cases, while the poultry production increases per capita some other factors decrease, like beef or pork production. The results of this research are shown in Figures \ref{Example1fig}, \ref{Example2fig}, \ref{Example3fig}, \ref{Example4fig}, \ref{Example5fig}  and \ref{Example6fig}.
+
+The previous research indicates there is many other factors to consider, and this is the starting of an opportunity for more investigation about the challenges of food production. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusions}
+
+Next steps to consider are things such as the following: To look at the sustainability of the economic activities in Canada, and to develop a system to tackle problems as land use, water consumption and use of fertilizers. 
+
+The preliminary results obtained in the work are promising, as well the need for further improvements to open  problems such as certification for the food suppliers and traceability of the products. These results could be reported in a future work.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{99}
+
+\bibitem{climate-data}
+{\sc Climate Data Canada}
+Climate Data for a Resilient Canada \\
+{\sc DOI:} https://climatedata.ca/
+
+\bibitem{McInn}
+{\sc D. McInnes},
+Agri-food sustainability targets. A selected overview. DMci Strategies, October 2003.
+
+\bibitem{SMWRA}
+{\sc K. Parris},
+Sustainable management of water resources in agriculture. OECD Publishing. France, 2010.
+
+\bibitem{stat-can}
+{\sc Statistics Canada}
+Table 32-10-0359-01  Estimated areas, yield, production, average farm price and total farm value of principal field crops, in metric and imperial units \\
+{\sc DOI:}  https://doi.org/10.25318/3210035901-eng
+
+\bibitem{UN}
+{\sc United Nations}
+ClimateChange \\
+{\sc DOI:} https://www.un.org/climatechange?gclid=CjwKCAjwvuGJBhB1EiwACU1AidbTCITKc5CBRuumTV$\_$k5EY1YDXEN6DY21GqWNKxN87KO28WAFncQxoCaWcQAvD$\_$BwE
+
+\bibitem{UN-edgar}
+{\sc United Nations}
+THE 17 GOALS | Sustainable Development \\
+{\sc DOI:} https://sdgs.un.org/goals
+
+\end{thebibliography}
+
+\section*{Appendix}\label{figures}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{ABfrost}
+\caption{Consecutive Frost Free Days in Alberta}
+\label{ABfrostdays}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+ \includegraphics[scale=0.4]{ABtemp}
+ \caption{cummulative Mean Temperatures in Alberta}
+ \label{ABmeantemp}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+ \includegraphics[scale=0.4]{AByield}
+ \caption{Barley Yields in Alberta}
+ \label{ABbarleyyields}
+\end{figure}
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{ABproj}
+ \caption{Projected Barley Yields in Alberta}
+ \label{ABprojections}
+\end{figure}
+
 % ===============================================================================================
 \begin{figure}[t]
 \centering
@@ -197,75 +282,6 @@ Y_i = \beta_0 + \sum_{j=1}^k \beta_j X_{i,j},
 \label{Example6fig}
 \end{figure}
 % ===============================================================================================
-\section{Conclusions and future work} 
-In this work, we first stablished the main problems and overall challenges that  food process and agriculture  may face in the future. The main results showed in Section  \ref{Corr_modl}, asserting the existence of a linear correlation between  variables from food production. With this in mind we have a better understanding of the indictors for sustainability. Where the preliminary results shows why in certain cases, while the poultry production increases per capita some other factor decreases like beef or pork production.
-
-Yet, through the previous research  there is many other factors to consider and this is the starting of an opportunity for more investigation about the challenges of dood production. Which open the door to more areas, as a next step are considered to look at sustainability of the economic activities  in Canada, to develop a system to tackle problems as land use, water consumption and use of fertilizers. The preliminary results obtained in the work are promising, as well the need for further improvements to open  problems such as certification for the food suppliers and traceability of the products. These results could be reported in a future work.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{thebibliography}{99}
-
-\bibitem{climate-data}
-{\sc Climate Data Canada}
-Climate Data for a Resilient Canada \\
-{\sc DOI:} https://climatedata.ca/
-
-\bibitem{McInn}
-{\sc D. McInnes},
-Agri-food sustainability targets. A selected overview. DMci Strategies, October 2003.
-
-\bibitem{SMWRA}
-{\sc K. Parris},
-Sustainable management of water resources in agriculture. OECD Publishing. France, 2010.
-
-\bibitem{stat-can}
-{\sc Statistics Canada}
-Table 32-10-0359-01  Estimated areas, yield, production, average farm price and total farm value of principal field crops, in metric and imperial units \\
-{\sc DOI:}  https://doi.org/10.25318/3210035901-eng
-
-\bibitem{UN}
-{\sc United Nations}
-ClimateChange \\
-{\sc DOI:} https://www.un.org/climatechange?gclid=CjwKCAjwvuGJBhB1EiwACU1AidbTCITKc5CBRuumTV$\_$k5EY1YDXEN6DY21GqWNKxN87KO28WAFncQxoCaWcQAvD$\_$BwE
-
-\bibitem{UN-edgar}
-{\sc United Nations}
-THE 17 GOALS | Sustainable Development \\
-{\sc DOI:} https://sdgs.un.org/goals
-
-\end{thebibliography}
-
-\section*{Figures}\label{figures}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.4]{ABfrost}
-\caption{Consecutive Frost Free Days in Alberta}
-\label{ABfrostdays}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
- \includegraphics[scale=0.4]{ABtemp}
- \caption{cummulative Mean Temperatures in Alberta}
- \label{ABmeantemp}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
- \includegraphics[scale=0.4]{AByield}
- \caption{Barley Yields in Alberta}
- \label{ABbarleyyields}
-\end{figure}
-
-\begin{figure}[h!]
- \centering
- \includegraphics[scale=0.4]{ABproj}
- \caption{Projected Barley Yields in Alberta}
- \label{ABprojections}
-\end{figure}
-
 
 \end{document}
 
